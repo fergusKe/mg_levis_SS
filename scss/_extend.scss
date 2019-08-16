@@ -1,0 +1,22 @@
+%clearfix {
+	&:before {
+		content: "";
+	    display: table;
+	}
+    &:after {
+    	content: "";
+	    display: table;
+	    clear: both;
+    }
+    zoom: 1;
+}
+%word-break {
+	word-wrap: break-word;
+	word-break: break-all;
+}
+%indent{
+	display: block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
